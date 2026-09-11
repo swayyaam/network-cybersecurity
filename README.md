@@ -19,6 +19,7 @@ The notes are distilled from the lecture decks: each concept is defined **once**
 |---|---|
 | [`notes/`](notes/) | The notes, one folder per module |
 | [`assignments/`](assignments/) | Assignment answers |
+| [`2025_midsem.md`](2025_midsem.md) | Mid-semester examination questions with worked answers |
 | [`lesson-plan.md`](lesson-plan.md) | Full syllabus, course outcomes, books, evaluation scheme and activity schedule |
 
 ---
