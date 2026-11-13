@@ -49,6 +49,31 @@ The notes are distilled from the lecture decks: each concept is defined **once**
 | 8 | [IDS and IPS](notes/module-2/08-ids-and-ips.md) | Intrusion detection components, misuse vs anomaly, NIDS/HIDS, IPS techniques and types, IDS vs IPS |
 | 9 | [Protocol Analyzers and Content Filters](notes/module-2/09-protocol-analyzers-and-content-filters.md) | Packet sniffers, what they do, hardware vs software; content filtering types and benefits |
 
+### Module 3 — Cyber Law and Ethics *(Unit III)*
+
+| # | Note | Covers |
+|---|---|---|
+| 1 | [Policy and Law](notes/module-3/01-policy-and-law.md) | Policy vs law, five enforceability criteria, types of law, CFAA/ECPA/HIPAA, US copyright, UK laws |
+| 2 | [Ethics and Professional Codes](notes/module-3/02-ethics-and-professional-codes.md) | Cultural ethics, education, ignorance/accident/intent, professional bodies |
+
+### Module 4 — Authentication *(Unit IV)*
+
+| # | Note | Covers |
+|---|---|---|
+| 1 | [Kerberos](notes/module-4/01-kerberos.md) | NTLM vs Kerberos, KDC components, six-step operation |
+| 2 | [X.509 and PKI](notes/module-4/02-x509-and-pki.md) | Certificate format, revocation, one/two/three-way authentication, applications |
+| 3 | [Port Scanning and Port Knocking](notes/module-4/03-port-scanning-and-knocking.md) | Ports, scan techniques, prevention, knocking tools and trade-offs |
+| 4 | [Security in Peer-to-Peer Connections](notes/module-4/04-peer-to-peer-security.md) | P2P vs client–server, structured/unstructured, risks and defenses |
+| 5 | [E-Mail Security](notes/module-4/05-email-security.md) | Architecture, SMTP/POP3/IMAP, threats, STARTTLS, SPF/DKIM/DMARC, S/MIME |
+| 6 | [PGP](notes/module-4/06-pgp.md) | Five services, signature and confidentiality flows, algorithms |
+
+### Module 5 — Firewalls and Web Security *(Unit V)*
+
+| # | Note | Covers |
+|---|---|---|
+| 1 | [Firewalls](notes/module-5/01-firewalls.md) | Packet filters, application gateways, comparison |
+| 2 | [Encrypted Tunnels and Cookies](notes/module-5/02-encrypted-tunnels-and-cookies.md) | VPN/SSH/TLS, cookie uses, parameters and types |
+
 ---
 
 ## Syllabus coverage
@@ -57,18 +82,16 @@ The notes are distilled from the lecture decks: each concept is defined **once**
 |---|---|---|---|
 | **I** | Introduction to Network Security | 6 | ✅ Module 1 |
 | **II** | Cyber Security | 12 | ✅ Module 2 |
-| **III** | Cyber Law and Ethics | 4 | ❌ not yet written |
-| **IV** | Authentication | 10 | ❌ not yet written |
-| **V** | Firewalls and Web Security | 4 | ❌ not yet written |
+| **III** | Cyber Law and Ethics | 4 | ✅ Module 3 |
+| **IV** | Authentication | 10 | ✅ Module 4 |
+| **V** | Firewalls and Web Security | 4 | ✅ Module 5 |
 
 > The mid-semester examination falls between Unit II and Unit III. See [`lesson-plan.md`](lesson-plan.md) for the full topic list under each unit.
 
-**Two known gaps:**
+**Known gaps:**
 
-1. **Media-Based Vulnerabilities** (Unit II) — the source deck covers the cyber security introduction but stops before this topic.
-2. **Units III, IV and V in their entirety** — cyber law and ethics, authentication (Kerberos, X.509, PGP), and firewalls/web security.
-
-Adding the corresponding decks lets these notes be extended in the same shape, as `notes/module-3/` and so on.
+1. **Media-Based Vulnerabilities** (Unit II) — the source deck stops before this topic.
+2. The Module 4 e-mail deck is mostly images; its syllabus-listed services (distribution lists, non-repudiation, proof of delivery, etc.) are defined from standard meanings, not slides.
 
 ---
 
